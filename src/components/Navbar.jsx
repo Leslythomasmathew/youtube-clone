@@ -83,18 +83,6 @@ const Navbar = () => {
               }}
             >
               YouTube
-              <span style={{ 
-                color: '#ff0055', 
-                fontSize: '8px', 
-                position: 'absolute',
-                top: '-4px',
-                right: '-16px',
-                fontWeight: 'bold',
-                letterSpacing: '0',
-                WebkitTextFillColor: '#ff0055'
-              }}>
-                IN
-              </span>
             </Typography>
           </Link>
         </Stack>

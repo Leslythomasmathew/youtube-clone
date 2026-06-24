@@ -9,6 +9,7 @@ import ShareIcon from '@mui/icons-material/Share';
 import VolumeUpIcon from '@mui/icons-material/VolumeUp';
 import VolumeOffIcon from '@mui/icons-material/VolumeOff';
 import CloseIcon from '@mui/icons-material/Close';
+import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 
 import { Sidebar } from './index.js';
 import { playlistStore } from '../utils/playlistStore.js';
@@ -17,81 +18,73 @@ import { getMockChannelDetail } from '../utils/mockData.js';
 
 const MOCK_SHORTS = [
   {
-    id: 'short1',
+    id: 'tS7up8ZY21A',
     title: 'Vite React starter build compilation is blindingly fast! ⚡',
     channelId: 'UCmXmlB4-HJytD7wek0Uo97A',
     channelTitle: 'JavaScript Mastery',
-    videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4',
     likes: '14K',
     commentsCount: '1.4K',
     channelAvatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80'
   },
   {
-    id: 'short2',
+    id: 'tS6uP7Q2w1M',
     title: 'Subaru Outback ripping through dirty sand dunes! 🏎️',
     channelId: 'UCW5YeuERMmlnqo4on8EsLxA',
     channelTitle: 'Traversy Media',
-    videoUrl: 'https://www.w3schools.com/html/movie.mp4',
     likes: '25K',
     commentsCount: '2.9K',
     channelAvatar: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?auto=format&fit=crop&w=100&q=80'
   },
   {
-    id: 'short3',
+    id: 'aircAruvnKk',
     title: 'Surreal CGI art from Elephant\'s Dream project 🐘',
     channelId: 'UC4UXCTnH_H6aTjT-p2PrB2A',
     channelTitle: 'Academind',
-    videoUrl: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4',
     likes: '11K',
     commentsCount: '1.1K',
     channelAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80'
   },
   {
-    id: 'short4',
+    id: 'yW6B5p9N3Qk',
     title: 'Calisthenics workout routine that is gravity-defying! 🤸‍♂️',
     channelId: 'UC7_Yx5lJ_RQDgW_M2A2d_ww',
     channelTitle: 'MKIceAndFire',
-    videoUrl: 'https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/classroom.mp4',
     likes: '95K',
     commentsCount: '8.4K',
     channelAvatar: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=100&q=80'
   },
   {
-    id: 'short5',
+    id: 'Q5_mE1C1_hE',
     title: 'React 19 "use" hook is a game-changer for database fetching! 🚀',
     channelId: 'UC8butISFwT-Wl7EV0hUK0BQ',
     channelTitle: 'freeCodeCamp.org',
-    videoUrl: 'https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/bolt-detection.mp4',
     likes: '4.2K',
     commentsCount: '312',
     channelAvatar: 'https://yt3.ggpht.com/ytc/AIdro5k2_gK7L-kO1y_p-zUjG6981oE75c404r5Lg00x=s800-c-k-c0xffffffff-no-rj-mo'
   },
   {
-    id: 'short6',
+    id: 'Way9Dexny3w',
     title: 'The CGI details in this movie scene are completely out of this world! 🤯',
     channelId: 'UCyN9yP1M5e5Q',
     channelTitle: 'Vogue Runway',
-    videoUrl: 'https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/one-by-one-person-detection.mp4',
     likes: '512K',
     commentsCount: '41K',
     channelAvatar: 'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=100&q=80'
   },
   {
-    id: 'short7',
+    id: 'IluRBvnYXsY',
     title: 'Daft Punk playing synthesizers in Paris - pure nostalgia! 🎹',
     channelId: 'UC8R5H2u6cR6jEGF2T2R7UvQ',
     channelTitle: 'Lofi Girl',
-    videoUrl: 'https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/car-detection.mp4',
     likes: '124K',
     commentsCount: '9.2K',
     channelAvatar: 'https://yt3.ggpht.com/gXT5dtm7G62L5QeU8Q-zYd-1t0k1_n4q7B-473k7=s800-c-k-c0xffffffff-no-rj-mo'
   },
   {
-    id: 'short8',
+    id: 'dDbFX72uL9g',
     title: 'Giant basketball shot off the top of a massive stadium! 🏀',
     channelId: 'UCWJ2l187cJgYg9w9xK1w32A',
     channelTitle: 'Sports Highlights',
-    videoUrl: 'https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/store-aisle-detection.mp4',
     likes: '340K',
     commentsCount: '28K',
     channelAvatar: 'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=100&q=80'
@@ -105,23 +98,9 @@ const ShortCard = ({ short, activeId, isMuted, setIsMuted, onOpenComments }) => 
   const [disliked, setDisliked] = useState(false);
   const [subscribed, setSubscribed] = useState(false);
 
-  const videoRef = useRef(null);
-
   useEffect(() => {
     setSubscribed(playlistStore.isSubscribedChannel(short.channelId));
   }, [short.channelId]);
-
-  useEffect(() => {
-    if (videoRef.current) {
-      if (isPlaying) {
-        videoRef.current.play().catch(err => {
-          console.warn("Shorts play interrupted:", err);
-        });
-      } else {
-        videoRef.current.pause();
-      }
-    }
-  }, [isPlaying]);
 
   const handleLike = () => {
     setLiked(!liked);
@@ -164,19 +143,38 @@ const ShortCard = ({ short, activeId, isMuted, setIsMuted, onOpenComments }) => 
         boxShadow: '0 12px 36px rgba(0,0,0,0.6)'
       }}
     >
-      <video
-        ref={videoRef}
-        src={short.videoUrl}
-        loop
-        muted={isMuted}
-        style={{ 
-          width: '100%', 
-          height: '100%', 
-          objectFit: 'cover',
-          cursor: 'pointer'
-        }}
-        onClick={() => setIsMuted(!isMuted)}
-      />
+      {isPlaying ? (
+        <iframe
+          src={`https://www.youtube.com/embed/${short.id}?autoplay=1&mute=${isMuted ? 1 : 0}&loop=1&playlist=${short.id}&controls=0&modestbranding=1&iv_load_policy=3&rel=0`}
+          title={short.title}
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+          style={{
+            width: '100%',
+            height: '100%',
+            border: 'none',
+            backgroundColor: '#000'
+          }}
+        />
+      ) : (
+        <Box 
+          sx={{ 
+            width: '100%', 
+            height: '100%', 
+            backgroundColor: '#121214', 
+            display: 'flex', 
+            alignItems: 'center', 
+            justifyContent: 'center',
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://img.youtube.com/vi/${short.id}/hqdefault.jpg)`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            cursor: 'pointer'
+          }}
+        >
+          <PlayArrowIcon sx={{ fontSize: '64px', color: 'rgba(255,255,255,0.8)' }} />
+        </Box>
+      )}
 
       {/* Floating Sound Toggle */}
       <IconButton 
@@ -187,6 +185,7 @@ const ShortCard = ({ short, activeId, isMuted, setIsMuted, onOpenComments }) => 
           right: '20px', 
           color: '#fff', 
           backgroundColor: 'rgba(0,0,0,0.5)',
+          zIndex: 15,
           '&:hover': { backgroundColor: 'rgba(0,0,0,0.7)' }
         }}
       >

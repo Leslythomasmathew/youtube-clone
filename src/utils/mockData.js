@@ -83,7 +83,7 @@ export const mockVideosByCategory = {
       id: { videoId: 'Way9Dexny3w' },
       snippet: {
         title: 'Dune: Part Two | Official Trailer 3',
-        channelId: 'UCyN9yP1M5e5Q',
+        channelId: 'UCP5yW5i_aF3Q',
         channelTitle: 'Vogue Runway',
         description: 'Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.',
         thumbnails: { high: { url: 'https://img.youtube.com/vi/Way9Dexny3w/maxresdefault.jpg' } },
@@ -420,7 +420,7 @@ export const mockVideosByCategory = {
       }
     },
     {
-      id: { videoId: 'x1a2b3c4d5e' },
+      id: { videoId: '7NOSDKb0HGQ' },
       snippet: {
         title: 'Calm Piano Melodies for Studying & Deep Focus 🎹',
         channelId: 'UC8R5H2u6cR6jEGF2T2R7UvQ',
@@ -499,7 +499,7 @@ export const mockVideosByCategory = {
       }
     },
     {
-      id: { videoId: 'yWO-cvGETRQ`' },
+      id: { videoId: 'yWO-cvGETRQ' },
       snippet: {
         title: 'Why Blue Stars are Actually Red - Astrophysics Explained',
         channelId: 'UC8butISFwT-Wl7EV0hUK0BQ',
@@ -534,7 +534,7 @@ export const mockVideosByCategory = {
       }
     },
     {
-      id: { videoId: 'a9b8c7d6e5f' },
+      id: { videoId: 'jvqFAi7p1I0' },
       snippet: {
         title: 'Sam Altman: OpenAI, GPT-5, and the AGI Roadmap [Native Stream]',
         channelId: 'UC2sS7-e_e_eT6x0y_h5pXwA',
@@ -583,7 +583,7 @@ export const mockVideosByCategory = {
       id: { videoId: 'Way9Dexny3w' },
       snippet: {
         title: 'Dune: Part Two | Official Trailer 3',
-        channelId: 'UCyN9yP1M5e5Q',
+        channelId: 'UCP5yW5i_aF3Q',
         channelTitle: 'Vogue Runway',
         description: 'Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.',
         thumbnails: { high: { url: 'https://img.youtube.com/vi/Way9Dexny3w/maxresdefault.jpg' } },
@@ -594,7 +594,7 @@ export const mockVideosByCategory = {
       id: { videoId: 'uYPbbksJxIg' },
       snippet: {
         title: 'Oppenheimer | Official Trailer (Universal Pictures)',
-        channelId: 'UCyN9yP1M5e5Q',
+        channelId: 'UCP5yW5i_aF3Q',
         channelTitle: 'Vogue Runway',
         description: 'Watch the official trailer for Oppenheimer, written and directed by Christopher Nolan. Exploring the creation of the atomic bomb.',
         thumbnails: { high: { url: 'https://img.youtube.com/vi/uYPbbksJxIg/maxresdefault.jpg' } },
@@ -605,7 +605,7 @@ export const mockVideosByCategory = {
       id: { videoId: 'mqqft2x_Aa4' },
       snippet: {
         title: 'The Batman - Official Trailer (Warner Bros.)',
-        channelId: 'UCyN9yP1M5e5Q',
+        channelId: 'UCP5yW5i_aF3Q',
         channelTitle: 'Vogue Runway',
         description: 'The official trailer for The Batman, starring Robert Pattinson. Underworld crimes and the riddles of Gotham City.',
         thumbnails: { high: { url: 'https://img.youtube.com/vi/mqqft2x_Aa4/maxresdefault.jpg' } },
@@ -616,7 +616,7 @@ export const mockVideosByCategory = {
       id: { videoId: 'JfVOs4VSpmA' },
       snippet: {
         title: 'Spider-Man: No Way Home - Official Teaser Trailer',
-        channelId: 'UCyN9yP1M5e5Q',
+        channelId: 'UCP5yW5i_aF3Q',
         channelTitle: 'Vogue Runway',
         description: 'Spider-Mans secret identity is revealed, prompting Peter Parker to ask Doctor Strange for help with multiverse consequences.',
         thumbnails: { high: { url: 'https://img.youtube.com/vi/JfVOs4VSpmA/maxresdefault.jpg' } },
@@ -627,7 +627,7 @@ export const mockVideosByCategory = {
       id: { videoId: 'zSWdZAIB5nY' },
       snippet: {
         title: 'Interstellar - Official Trailer (Christopher Nolan Movie)',
-        channelId: 'UCyN9yP1M5e5Q',
+        channelId: 'UCP5yW5i_aF3Q',
         channelTitle: 'Vogue Runway',
         description: 'Watch the theatrical trailer for Interstellar, exploring gravity waves, crop blights, and deep-space wormholes.',
         thumbnails: { high: { url: 'https://img.youtube.com/vi/zSWdZAIB5nY/maxresdefault.jpg' } },
@@ -637,7 +637,7 @@ export const mockVideosByCategory = {
   ],
   Gaming: [
     {
-      id: { videoId: '2q0-c3x4y5w' },
+      id: { videoId: 'E3Huy2cdIh0' },
       snippet: {
         title: 'Elden Ring Shadow of the Erdtree - Full Playthrough 100%',
         channelId: 'UC7_Yx5lJ_RQDgW_M2A2d_ww',
@@ -648,7 +648,7 @@ export const mockVideosByCategory = {
       }
     },
     {
-      id: { videoId: 'g1h2i3j4k5l' },
+      id: { videoId: '1P2eRjP5FvE' },
       snippet: {
         title: 'Minecraft Speedrunner VS 3 Hunters REMATCH ⚔️',
         channelId: 'UC7_Yx5lJ_RQDgW_M2A2d_ww',
@@ -705,7 +705,7 @@ export const mockVideosByCategory = {
       }
     },
     {
-      id: { videoId: 'liveStreamMusic' },
+      id: { videoId: '8Z1eLK3gN50' },
       snippet: {
         title: 'Synthwave Radio 24/7 🌌 Retro Gaming & Coding Beats',
         channelId: 'UC8R5H2u6cR6jEGF2T2R7UvQ',
@@ -740,7 +740,7 @@ export const mockVideosByCategory = {
   ],
   Sport: [
     {
-      id: { videoId: '3x0y1z2a3b4' },
+      id: { videoId: '1_M0Wd42e0A' },
       snippet: {
         title: 'NBA Finals Highlights - Game 7 Thriller',
         channelId: 'UCWJ2l187cJgYg9w9xK1w32A',
@@ -751,7 +751,7 @@ export const mockVideosByCategory = {
       }
     },
     {
-      id: { videoId: 's1t2u3v4w5x' },
+      id: { videoId: 'w5yY6c9w2m4' },
       snippet: {
         title: 'Lionel Messi - Top 50 Magic Goals in Football History ⚽',
         channelId: 'UCWJ2l187cJgYg9w9xK1w32A',
@@ -797,92 +797,92 @@ export const mockVideosByCategory = {
   ],
   Fashion: [
     {
-      id: { videoId: 'yN9yP1M5e5Q' },
+      id: { videoId: 'P5yW5i_aF3Q' },
       snippet: {
         title: 'Chanel Cruise 2025/26 Show - Full Fashion Runway',
         channelId: 'UCwN2w1x4c5v8',
         channelTitle: 'Fashion Reviews',
         description: 'Experience the entire Chanel Cruise 2025/26 collection runway show, featuring tweed fabrics, yachting styles, and modern luxury designs.',
-        thumbnails: { high: { url: 'https://img.youtube.com/vi/yN9yP1M5e5Q/maxresdefault.jpg' } },
+        thumbnails: { high: { url: 'https://img.youtube.com/vi/P5yW5i_aF3Q/maxresdefault.jpg' } },
         publishedAt: '2025-05-10T14:00:00Z',
       }
     },
     {
-      id: { videoId: '8c2P1d4v5s8' },
+      id: { videoId: 'P5yW5i_aF3Q' },
       snippet: {
         title: 'Vogue - 73 Questions with Zendaya',
-        channelId: 'UCyN9yP1M5e5Q',
+        channelId: 'UCP5yW5i_aF3Q',
         channelTitle: 'Vogue Runway',
         description: 'Zendaya answers 73 questions about her fashion style, acting career, met gala memories, and capsule wardrobe tips.',
-        thumbnails: { high: { url: 'https://img.youtube.com/vi/8c2P1d4v5s8/maxresdefault.jpg' } },
+        thumbnails: { high: { url: 'https://img.youtube.com/vi/P5yW5i_aF3Q/maxresdefault.jpg' } },
         publishedAt: '2025-08-12T16:00:00Z',
       }
     },
     {
-      id: { videoId: 'tW2w1x4v5h8' },
+      id: { videoId: 'P5yW5i_aF3Q' },
       snippet: {
         title: 'Gucci Spring Summer 2026 Collection Runway Presentation',
         channelId: 'UCwN2w1x4c5v8',
         channelTitle: 'Fashion Reviews',
         description: 'Guccis creative director presents the Spring/Summer 2026 line. High-contrast colors, retro tailoring, and next-gen streetwear integrations.',
-        thumbnails: { high: { url: 'https://img.youtube.com/vi/tW2w1x4v5h8/maxresdefault.jpg' } },
+        thumbnails: { high: { url: 'https://img.youtube.com/vi/P5yW5i_aF3Q/maxresdefault.jpg' } },
         publishedAt: '2025-09-22T15:00:00Z',
       }
     },
     {
-      id: { videoId: 'rT2w1x5c4v8' },
+      id: { videoId: 'P5yW5i_aF3Q' },
       snippet: {
         title: 'Inside the Met Gala 2026 - Best Dressed Celebrities Red Carpet',
-        channelId: 'UCyN9yP1M5e5Q',
+        channelId: 'UCP5yW5i_aF3Q',
         channelTitle: 'Vogue Runway',
         description: 'Red carpet fashion analysis of the Met Gala 2026. Reviewing theme representations, custom designer gowns, and viral celebrity outfits.',
-        thumbnails: { high: { url: 'https://img.youtube.com/vi/rT2w1x5c4v8/maxresdefault.jpg' } },
+        thumbnails: { high: { url: 'https://img.youtube.com/vi/P5yW5i_aF3Q/maxresdefault.jpg' } },
         publishedAt: '2026-05-04T23:00:00Z',
       }
     }
   ],
   Beauty: [
     {
-      id: { videoId: '8c1m9x2v8q4' },
+      id: { videoId: 'QF16aIyaSb0' },
       snippet: {
         title: 'Selena Gomez - Everyday Makeup Routine (Vogue Beauty Secrets)',
-        channelId: 'UCyN9yP1M5e5Q',
+        channelId: 'UCP5yW5i_aF3Q',
         channelTitle: 'Vogue Runway',
         description: 'Selena Gomez shows her daily glowy makeup routine using Rare Beauty products. Sunscreens, foundations, and contour techniques.',
-        thumbnails: { high: { url: 'https://img.youtube.com/vi/8c1m9x2v8q4/maxresdefault.jpg' } },
+        thumbnails: { high: { url: 'https://img.youtube.com/vi/QF16aIyaSb0/maxresdefault.jpg' } },
         publishedAt: '2024-09-10T12:00:00Z',
       }
     },
     {
-      id: { videoId: 'yN2w1x4v5c8' },
+      id: { videoId: 'QF16aIyaSb0' },
       snippet: {
         title: 'A Complete Skincare Guide for Beginners - Dermatologist Approved',
-        channelId: 'UCyN9yP1M5e5Q',
+        channelId: 'UCP5yW5i_aF3Q',
         channelTitle: 'Vogue Runway',
         description: 'A comprehensive walkthrough of a simple, effective skincare routine: cleansing, hydrating, active acids, and proper SPF protection.',
-        thumbnails: { high: { url: 'https://img.youtube.com/vi/yN2w1x4v5c8/maxresdefault.jpg' } },
+        thumbnails: { high: { url: 'https://img.youtube.com/vi/QF16aIyaSb0/maxresdefault.jpg' } },
         publishedAt: '2025-11-20T10:00:00Z',
       }
     },
     {
-      id: { videoId: 'w8v1x4c5v2g' },
+      id: { videoId: 'QF16aIyaSb0' },
       snippet: {
         title: '10-Minute Everyday Glowy Makeup Tutorial for Beginners',
-        channelId: 'UCyN9yP1M5e5Q',
+        channelId: 'UCP5yW5i_aF3Q',
         channelTitle: 'Vogue Runway',
         description: 'A quick, simple tutorial for achieving a natural glass skin finish in under ten minutes. Perfect for busy mornings.',
-        thumbnails: { high: { url: 'https://img.youtube.com/vi/w8v1x4c5v2g/maxresdefault.jpg' } },
+        thumbnails: { high: { url: 'https://img.youtube.com/vi/QF16aIyaSb0/maxresdefault.jpg' } },
         publishedAt: '2026-02-15T09:00:00Z',
       }
     },
     {
-      id: { videoId: 'rN2w1x4c5v8' },
+      id: { videoId: 'QF16aIyaSb0' },
       snippet: {
         title: 'Vogue - Beauty Secrets with Rihanna (Makeup & Fenty Skincare)',
-        channelId: 'UCyN9yP1M5e5Q',
+        channelId: 'UCP5yW5i_aF3Q',
         channelTitle: 'Vogue Runway',
         description: 'Rihanna shares her night out beauty secrets, makeup application techniques, and skincare prep for a smooth look.',
-        thumbnails: { high: { url: 'https://img.youtube.com/vi/rN2w1x4c5v8/maxresdefault.jpg' } },
+        thumbnails: { high: { url: 'https://img.youtube.com/vi/QF16aIyaSb0/maxresdefault.jpg' } },
         publishedAt: '2024-06-12T11:00:00Z',
       }
     }
@@ -911,7 +911,7 @@ export const mockVideosByCategory = {
       }
     },
     {
-      id: { videoId: 'yN1w2x4v5c8' },
+      id: { videoId: 'ddV6jAHXuvA' },
       snippet: {
         title: 'Dave Chappelle Live Stand-Up Comedy - London Highlights',
         channelId: 'UCddV6jAHXuvA',
@@ -922,7 +922,7 @@ export const mockVideosByCategory = {
       }
     },
     {
-      id: { videoId: 'wN2v1x4c5g8' },
+      id: { videoId: '0e3GPea1T5g' },
       snippet: {
         title: 'Saturday Night Live - Best Sketch Highlights Compilation',
         channelId: 'UCddV6jAHXuvA',
@@ -935,7 +935,7 @@ export const mockVideosByCategory = {
   ],
   Gym: [
     {
-      id: { videoId: 'vc1_Z7Q7k4o' },
+      id: { videoId: 'k_X-o5GqT9M' },
       snippet: {
         title: 'Ultimate 15-Minute Full Body Workout (No Equipment)',
         channelId: 'UC7_Yx5lJ_RQDgW_M2A2d_ww',
@@ -946,7 +946,7 @@ export const mockVideosByCategory = {
       }
     },
     {
-      id: { videoId: 'rT2v1x4c5g8' },
+      id: { videoId: 'nO2X6e1w3f8' },
       snippet: {
         title: 'Arnold Schwarzenegger - Ultimate Workout Motivation',
         channelId: 'UC7_Yx5lJ_RQDgW_M2A2d_ww',
@@ -957,7 +957,7 @@ export const mockVideosByCategory = {
       }
     },
     {
-      id: { videoId: 'yN1v2x4c5g8' },
+      id: { videoId: 'F3Gq2G-sC04' },
       snippet: {
         title: 'How to Perfect Your Squat Form - Step-by-Step Guide',
         channelId: 'UC7_Yx5lJ_RQDgW_M2A2d_ww',
@@ -968,7 +968,7 @@ export const mockVideosByCategory = {
       }
     },
     {
-      id: { videoId: 'wT2v1x4c5h8' },
+      id: { videoId: 'yW6B5p9N3Qk' },
       snippet: {
         title: 'Calisthenics Beginner Workout - Complete Strength Routine',
         channelId: 'UC7_Yx5lJ_RQDgW_M2A2d_ww',
@@ -981,7 +981,7 @@ export const mockVideosByCategory = {
   ],
   Crypto: [
     {
-      id: { videoId: '4a3b2c1d0e9' },
+      id: { videoId: '1YyAzVmP9XQ' },
       snippet: {
         title: 'Bitcoin, Ethereum, & The Web3 Revolution Explained',
         channelId: 'UC9a0K7Y0R_f0f7R3Kx_x_ww',
@@ -992,7 +992,7 @@ export const mockVideosByCategory = {
       }
     },
     {
-      id: { videoId: 'c1d2e3f4g5h' },
+      id: { videoId: 'ZE2HxT5s1LK' },
       snippet: {
         title: 'Ethereum 2.0: The Merge Explained Simply',
         channelId: 'UC9a0K7Y0R_f0f7R3Kx_x_ww',
@@ -1052,7 +1052,7 @@ export const mockVideosByCategory = {
       id: { videoId: 'TcMBFSGVi1c' },
       snippet: {
         title: 'Marvel Studios\' Avengers: Endgame - Official Trailer',
-        channelId: 'UCyN9yP1M5e5Q',
+        channelId: 'UCP5yW5i_aF3Q',
         channelTitle: 'Vogue Runway',
         description: 'Whatever it takes. Watch the official trailer for Marvel Studios\' Avengers: Endgame.',
         thumbnails: { high: { url: 'https://img.youtube.com/vi/TcMBFSGVi1c/maxresdefault.jpg' } },
@@ -1305,8 +1305,8 @@ export const mockChannels = {
       viewCount: '51000000000'
     }
   },
-  'UCyN9yP1M5e5Q': {
-    id: 'UCyN9yP1M5e5Q',
+  'UCP5yW5i_aF3Q': {
+    id: 'UCP5yW5i_aF3Q',
     snippet: {
       title: 'Vogue Runway',
       description: 'The ultimate destination for fashion updates, designer interviews, Met Gala red carpets, and behind-the-scenes content.',

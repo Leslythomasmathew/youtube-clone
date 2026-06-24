@@ -49,25 +49,6 @@ const getVideoUrl = (id, queryUrl) => {
   if (id === 'custom' && queryUrl) {
     return decodeURIComponent(queryUrl);
   }
-  
-  // Custom mock video IDs mapped to stable Google CDN sample MP4 files
-  const mockUrlMapping = {
-    'x1a2b3c4d5e': 'https://www.w3schools.com/html/mov_bbb.mp4',
-    'a9b8c7d6e5f': 'https://www.w3schools.com/html/movie.mp4',
-    '2q0-c3x4y5w': 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4',
-    'g1h2i3j4k5l': 'https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/classroom.mp4',
-    'liveStreamMusic': 'https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/bolt-detection.mp4',
-    '3x0y1z2a3b4': 'https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/one-by-one-person-detection.mp4',
-    's1t2u3v4w5x': 'https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/car-detection.mp4',
-    '4a3b2c1d0e9': 'https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/person-bicycle-car-detection.mp4',
-    'c1d2e3f4g5h': 'https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/store-aisle-detection.mp4',
-  };
-
-  if (mockUrlMapping[id]) {
-    return mockUrlMapping[id];
-  }
-
-  // Return standard YouTube stream path
   return `https://www.youtube.com/watch?v=${id}`;
 };
 
