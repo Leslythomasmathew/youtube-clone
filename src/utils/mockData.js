@@ -47,17 +47,6 @@ export const mockVideosByCategory = {
       }
     },
     {
-      id: { videoId: '3f5X42b0dE8' },
-      snippet: {
-        title: 'CSS Grid & Flexbox Crash Course for Beginners',
-        channelId: 'UC8butISFwT-Wl7EV0hUK0BQ',
-        channelTitle: 'freeCodeCamp.org',
-        description: 'Master responsive layouts in CSS. You will build modern layout grids, grids nested in flex rows, and explore web designs from scratch.',
-        thumbnails: { high: { url: 'https://img.youtube.com/vi/3f5X42b0dE8/maxresdefault.jpg' } },
-        publishedAt: '2025-12-01T14:00:00Z',
-      }
-    },
-    {
       id: { videoId: '090Mb1U29G4' },
       snippet: {
         title: 'Vite 5.0 Tutorial - Next Generation Frontend Tooling',
@@ -213,28 +202,6 @@ export const mockVideosByCategory = {
         description: 'Get started with React in this comprehensive full course. You will learn components, state, hooks, and routing by building practical projects.',
         thumbnails: { high: { url: 'https://img.youtube.com/vi/Ke90Tje7VS0/maxresdefault.jpg' } },
         publishedAt: '2026-02-10T12:30:00Z',
-      }
-    },
-    {
-      id: { videoId: '3f5X42b0dE8' },
-      snippet: {
-        title: 'CSS Grid & Flexbox Crash Course for Beginners',
-        channelId: 'UC8butISFwT-Wl7EV0hUK0BQ',
-        channelTitle: 'freeCodeCamp.org',
-        description: 'Master responsive layouts in CSS. You will build modern layout grids, grids nested in flex rows, and explore web designs from scratch.',
-        thumbnails: { high: { url: 'https://img.youtube.com/vi/3f5X42b0dE8/maxresdefault.jpg' } },
-        publishedAt: '2025-12-01T14:00:00Z',
-      }
-    },
-    {
-      id: { videoId: 't2plhg_7Z8Y' },
-      snippet: {
-        title: 'Clean Code: A Handbook of Agile Software Craftsmanship',
-        channelId: 'UC4xKfZJO1n9yv23E15c7jQA',
-        channelTitle: 'Code Aesthetic',
-        description: 'Learn the fundamentals of writing clean, maintainable, and readable code. We look at naming conventions, function sizes, comments, and architectural structure.',
-        thumbnails: { high: { url: 'https://img.youtube.com/vi/t2plhg_7Z8Y/maxresdefault.jpg' } },
-        publishedAt: '2025-05-18T10:00:00Z',
       }
     },
     {
@@ -474,17 +441,6 @@ export const mockVideosByCategory = {
         description: 'A comprehensive crash course on styling React apps using MUI.',
         thumbnails: { high: { url: 'https://img.youtube.com/vi/30LWjhZR6eg/maxresdefault.jpg' } },
         publishedAt: '2024-04-18T16:15:00Z',
-      }
-    },
-    {
-      id: { videoId: '3f5X42b0dE8' },
-      snippet: {
-        title: 'CSS Grid & Flexbox Crash Course for Beginners',
-        channelId: 'UC8butISFwT-Wl7EV0hUK0BQ',
-        channelTitle: 'freeCodeCamp.org',
-        description: 'Master responsive layouts in CSS. You will build modern layout grids, grids nested in flex rows, and explore web designs from scratch.',
-        thumbnails: { high: { url: 'https://img.youtube.com/vi/3f5X42b0dE8/maxresdefault.jpg' } },
-        publishedAt: '2025-12-01T14:00:00Z',
       }
     },
     {
