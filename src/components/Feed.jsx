@@ -8,7 +8,7 @@ import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 
 const Feed = () => {
   const [activeMenu, setActiveMenu] = useState('Home');
-  const [selectedCategory, setSelectedCategory] = useState('All');
+  const [selectedCategory, setSelectedCategory] = useState('Coding');
   const [videos, setVideos] = useState([]);
   const [isLoadingLocal, setIsLoadingLocal] = useState(false);
 
@@ -59,14 +59,14 @@ const Feed = () => {
       });
   }, [selectedCategory, activeMenu]);
 
-  // If user changes menu item in sidebar, reset category chips to 'All'
+  // If user changes menu item in sidebar, reset category chips to 'Coding'
   const handleActiveMenuChange = (menuName) => {
     setActiveMenu(menuName);
-    setSelectedCategory('All');
+    setSelectedCategory('Coding');
   };
 
   const getPageHeader = () => {
-    if (activeMenu === 'Home' && selectedCategory === 'All') return null;
+    if (activeMenu === 'Home' && (selectedCategory === 'All' || selectedCategory === 'Coding')) return null;
     if (activeMenu === 'Home') return `${selectedCategory} Videos`;
     return activeMenu;
   };
