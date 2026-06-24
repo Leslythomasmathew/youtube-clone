@@ -36,7 +36,6 @@ export const categories = [
 // Left sidebar items reflecting standard YouTube structure
 export const sidebarMenu = [
   { name: 'Home', icon: <HomeIcon /> },
-  { name: 'Shorts', icon: <BoltIcon /> },
   { name: 'Trending', icon: <WhatshotIcon /> },
   { name: 'Subscriptions', icon: <SubscriptionsIcon /> },
   { divider: true },
